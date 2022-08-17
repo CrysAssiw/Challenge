@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/css.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+           <img class="logoImg" src="imagenes/Logo.png" alt="Logo Alura">
+           <h1 class="tittle"></h1>
+        </div>
+
+
+        <div class="left">
+            <input type="text" class="textInput" id="inputTexto" placeholder="Ingrese el texto aqui">
+
+        </div>
+
+
+        <div class="right">
+            <img src="/imagenes/Muñeco.png" alt="Muñeco" id="imgM">
+            <h1 id="texto">Ningún mensaje fue encontrado</h1>
+            <textarea name="resultado" id="texto2" cols="30" rows="10">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>
+        </div>
+
+
+        <div class="left-button">
+            <p id="mi"><img src="/imagenes/Vector.png" alt="Vector" id="imgV" width="12px">Solo letras minúsculas y sin acentos</p>
+            <button type="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="botonDesencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+
+    </div>
+</body>
+<footer class="copyright">
+    <img src="/imagenes/Logo.png" alt="Logo Alura">
+    <p>&copy Copyright Alura<br>Alumno: Cristian Perez</p>
+    
+</footer>
+</html>
